@@ -1,0 +1,160 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Header part */
+header {
+
+    width: 100%;
+    height: 677px;
+    background-color: navy;
+}
+
+header:hover {
+    background-color: black;
+    transition: 3s;
+}
+
+
+.header-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copa-america-title {
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-top: 207px;
+}
+
+.copa-america-title:hover {
+    transform: scale(1.5);
+    transition: 4s;
+    color: #E02C6D;
+}
+
+.header-part a,
+.highlights-part a {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 24px;
+}
+
+.header-part .banner img {
+    width: 556.01px;
+    height: 438px;
+    margin-left: 102px;
+    margin-top: 153px;
+}
+
+.header-part .banner img:hover {
+    transform: rotate(360deg);
+    transition: 5s;
+}
+
+/* main part start */
+.players {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+
+.player {
+
+    width: 330px;
+    height: 474px;
+
+    box-shadow: 10px 10px 10px 10px lightgray;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.player .thumbnail img {
+    width: 100%;
+    height: 256px;
+}
+
+.player-name {
+    font-size: 28px;
+
+}
+
+.player-info,
+.highlights-part p {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+/* player end */
+
+/* highlights part */
+
+.highlights-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlights-part {
+    width: 469px;
+    height: 309px;
+    margin-top: 170px;
+}
+
+.highlights-title {
+    color: #0A0826;
+    font-size: 48px;
+}
+
+.highlights-container .highlights-thumbnail img {
+    width: 567px;
+    height: 427px;
+    margin-left: 66px;
+    margin-top: 165px;
+}
+
+/* highlights end */
+
+/* footer part start */
+.footer-part {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 158px;
+
+}
+
+.footer-img img {
+    width: 483.87px;
+    height: 110px;
+
+}
+
+
+.copyright {
+
+    height: 31px;
+    width: 236px;
+
+    top: 182px;
+    border-radius: nullpx;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 px;
+}
